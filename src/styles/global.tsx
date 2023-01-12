@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
     button {
         cursor: pointer;
         border: none;
+        background: none;
         &:disabled {
         cursor: default;
         }

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Challenge01 } from '../challenges/Challenge01';
 
 const Home: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const Home: React.FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>Xablau</h1>
+        <Challenge01 />
       </main>
     </>
   );
