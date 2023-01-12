@@ -2,7 +2,7 @@ import mixins from './mixins';
 
 const theme: any = {
   colors: {
-    background: '#0a090e',
+    background: '#121214',
     text: '#e1e1e6',
   },
   mixins,

@@ -5,10 +5,12 @@ interface isBigCoverProps {
 }
 
 export const Section = styled.section`
+  position: relative;
   display: grid;
   max-width: 1024px;
   margin: 0 auto;
-  background-color: #0f0d13;
+  margin-bottom: 3.75rem;
+  background-color: #0b0911;
   grid-template-columns: max-content max-content;
   grid-template-areas:
     'A B'
@@ -29,6 +31,15 @@ export const Section = styled.section`
   .player-3 {
     grid-area: C;
     height: fit-content;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    height: auto;
+    padding: 30px;
   }
 `;
 

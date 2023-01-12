@@ -8,6 +8,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      {/* <h2> xablau</h2> */}
       <Component {...pageProps} />
     </ThemeProvider>
   );

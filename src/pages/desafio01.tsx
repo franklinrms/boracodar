@@ -8,12 +8,14 @@ const Home: React.FC = () => {
       <Head>
         <title>#boraCodar | Player de musica</title>
       </Head>
-      <div>
-        <h1>
-          <span>#boraCodar</span> um player de musica
-        </h1>
-      </div>
+      <h1 className="big-heading">um player de musica</h1>
+
       <S.Section>
+        <a
+          href="https://github.com/franklinrms/boracodar/tree/main/src/challenges/Challenge01"
+          className="repository-link"
+          target="blank"
+        />
         <div className="player-1">
           <Challenge01 isBigCover />
         </div>
